@@ -1,6 +1,26 @@
-# Object-Detection-By-Abhimanyu
-Deep learning has been widely employed in artificial intelligence object identification, which is the process of identifying and finding objects in digital photos or videos. Deep learning neural networks for object detection are trained on huge datasets of labeled photos, where the algorithms learn to recognize things by extracting features such as edges, corners, textures, and colors from the images. These traits are then utilized to forecast the existence and placement of items in previously unseen images.
+# realtime-object-detection
+Detects objects in images/streaming video
 
-Furthermore, detecting items that take up between 2% and 60% of an image's area is an area where object detection excels. It is also very efficient at detecting items with distinct borders Additionally, it detects groups of objects as a single item and performs object localization at high speed (>15fps).
+### Quickstart guide
 
-Moreover, object detection is expanding into a variety of sectors, with applications ranging from business productivity to personal security. Convolutional Neural Networks (CNNs), for example, have demonstrated exceptional success in obtaining high accuracy and real-time performance in a variety of applications, including autonomous vehicles, surveillance systems, and facial recognition systems. These algorithms are very successful at recognizing objects in complex and dynamic environments because they can automatically learn and adapt to varied object classes, orientations, sizes, and lighting conditions.
+Refer kits from the link below to jumpstart the app
+* https://kandi.openweaver.com/collections/vision/object-detection-kit
+
+### Installation Guide
+
+Once python3 is installed, install all the dependencies by running the below command.
+
+pip3 install -r requirements.txt
+
+### Object Detection with pretrained models
+
+Run Jupyter notebook **Realtime Object Detection.ipynb** to detect objects on images or live streaming videos using webcam
+
+### To train on your custom dataset
+
+  1. Create your dataset yaml file containing details of train and validation directories
+  2. Annotate images
+  3. Select a pretrained model to apply transfer learning
+  4. Kickoff training process by configuring hyperparameters
+  5. Analyse performance of the model
+  6. Predict trained objects
